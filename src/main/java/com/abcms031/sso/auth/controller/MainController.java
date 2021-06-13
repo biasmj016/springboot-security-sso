@@ -11,4 +11,9 @@ public class MainController {
     public String print(){
         return "welcome";
     }
+
+    @GetMapping("/sign-in")
+    public String signIn(){
+        return "sign_in";
+    }
 }
