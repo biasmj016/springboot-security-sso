@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Note</title>
+    <link href="../images/notes.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../libs/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../libs/bootstrap-4.4.1-dist/js/bootstrap.js">
+
+</head>
+<body class="main-body">
+<form action="/sign-in/process" method="post" class="signin-form">
+    <h2>SIGN IN</h2>
+    <img src="../images/young-man.png">
+    <div class="text-form">
+        <input type="text" id="memberId" class="info" placeholder="ID">
+    </div>
+    <div class="text-form">
+        <input type="password" id="password" class="info" placeholder="PASSWORD">
+    </div>
+    <button type="button" class="main-btn" onclick="submit()">
+        SIGN IN
+    </button>
+    <div class="bottomText">
+        Don't you have ID? <a href="/sign-up">SIGN UP</a>
+    </div>
+</form>
+</body>
+</html>
