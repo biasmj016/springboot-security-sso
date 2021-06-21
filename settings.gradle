@@ -1,0 +1,5 @@
+rootProject.name = 'springboot-security-sso'
+include 'module-authorization-server'
+include 'module-client-1'
+include 'module-client-2'
+
