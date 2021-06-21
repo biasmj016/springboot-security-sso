@@ -1,5 +1,9 @@
+// 최상단 모듈
 rootProject.name = 'springboot-security-sso'
+// 밑은 추가된 모듈들
 include 'module-authorization-server'
 include 'module-client-1'
 include 'module-client-2'
+
+// settings.gradle 은 멀티모듈을 지원해준다
 

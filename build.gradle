@@ -25,6 +25,8 @@ subprojects {
         mavenCentral()
     }
 
+    // 원래는 공통으로 쓰는애들 올리고
+    // 각각의 build.gradle 에는 개별적으로만 쓰이는 것들을 추가해준다
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-security'
         implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
@@ -55,6 +57,7 @@ subprojects {
 
 project(':module-client-1') {
     dependencies {
+        // 기본적으로 module-authorization-server 를 컴파일해준다
         compileOnly project(':module-authorization-server')
     }
 }project(':module-client-2') {
@@ -63,3 +66,4 @@ project(':module-client-1') {
     }
 }
 
+// 전체 프로젝트 공통 모듈들 관리해준다
