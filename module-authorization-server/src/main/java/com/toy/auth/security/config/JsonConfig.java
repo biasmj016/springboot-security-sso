@@ -1,4 +1,4 @@
-package security.config;
+package com.toy.auth.security.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
